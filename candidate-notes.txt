@@ -1,0 +1,19 @@
+These are the packages used for the challenge implementation:
+
+Google Maps Flutter: https://pub.dev/packages/google_maps_flutter -> Show the map in the second tab
+
+Geolocator: https://pub.dev/packages/geolocator ->  Update the map to the user current location.
+
+HTTP: https://pub.dev/packages/http -> Make http request to access the JSON data.
+
+Cache Network Image: https://pub.dev/packages/cached_network_image -> Show the articles images
+
+URL-Launcher: https://pub.dev/packages/url_launcher -> Show the webpage of the articles when the user clicks on them
+
+------------------------------------------------------------------
+
+-> I leaved an placeholder for the Google Maps API key in the AndroidManifest.xml and the AppDelegate.swift files.
+
+-> All the project functionality was tested on Android because I don´t have access to an iPhone but did all the steps so the packages work on both platforms.
+
+-> Any feedback is appreciated.
